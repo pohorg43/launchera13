@@ -1,0 +1,167 @@
+.class public Lcom/oplus/compat/app/ActivityNative;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/oplus/compat/app/ActivityNative$ReflectInfo;
+    }
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static convertFromTranslucent(Landroid/app/Activity;)V
+    .registers 2
+    .annotation build Landroidx/annotation/RequiresApi;
+        api = 0x19
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/oplus/compat/utils/util/UnSupportedApiVersionException;
+        }
+    .end annotation
+
+    invoke-static {}, Lcom/oplus/compat/utils/util/VersionUtils;->isN_MR1()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    invoke-virtual {p0}, Landroid/app/Activity;->convertFromTranslucent()V
+
+    return-void
+
+    :cond_a
+    new-instance p0, Lcom/oplus/compat/utils/util/UnSupportedApiVersionException;
+
+    const-string v0, "not supported before N_MR1"
+
+    invoke-direct {p0, v0}, Lcom/oplus/compat/utils/util/UnSupportedApiVersionException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public static convertToTranslucent(Landroid/app/Activity;Landroid/app/ActivityOptions;)Z
+    .registers 3
+    .annotation build Landroidx/annotation/RequiresApi;
+        api = 0x19
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/oplus/compat/utils/util/UnSupportedApiVersionException;
+        }
+    .end annotation
+
+    invoke-static {}, Lcom/oplus/compat/utils/util/VersionUtils;->isN_MR1()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_c
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p0, v0, p1}, Landroid/app/Activity;->convertToTranslucent(Landroid/app/Activity$TranslucentConversionListener;Landroid/app/ActivityOptions;)Z
+
+    move-result p0
+
+    return p0
+
+    :cond_c
+    new-instance p0, Lcom/oplus/compat/utils/util/UnSupportedApiVersionException;
+
+    const-string p1, "not supported before N_MR1"
+
+    invoke-direct {p0, p1}, Lcom/oplus/compat/utils/util/UnSupportedApiVersionException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public static getActivityToken(Landroid/app/Activity;)Landroid/os/IBinder;
+    .registers 3
+    .annotation build Landroidx/annotation/RequiresApi;
+        api = 0x1e
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/oplus/compat/utils/util/UnSupportedApiVersionException;
+        }
+    .end annotation
+
+    invoke-static {}, Lcom/oplus/compat/utils/util/VersionUtils;->isR()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_14
+
+    invoke-static {}, Lcom/oplus/compat/app/ActivityNative$ReflectInfo;->access$000()Lcom/oplus/utils/reflect/RefMethod;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    new-array v1, v1, [Ljava/lang/Object;
+
+    invoke-virtual {v0, p0, v1}, Lcom/oplus/utils/reflect/RefMethod;->call(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Landroid/os/IBinder;
+
+    return-object p0
+
+    :cond_14
+    new-instance p0, Lcom/oplus/compat/utils/util/UnSupportedApiVersionException;
+
+    const-string v0, "not supported before R"
+
+    invoke-direct {p0, v0}, Lcom/oplus/compat/utils/util/UnSupportedApiVersionException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public static isResumed(Landroid/app/Activity;)Z
+    .registers 2
+    .annotation build Landroidx/annotation/RequiresApi;
+        api = 0x15
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/oplus/compat/utils/util/UnSupportedApiVersionException;
+        }
+    .end annotation
+
+    invoke-static {}, Lcom/oplus/compat/utils/util/VersionUtils;->isL()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_b
+
+    invoke-virtual {p0}, Landroid/app/Activity;->isResumed()Z
+
+    move-result p0
+
+    return p0
+
+    :cond_b
+    new-instance p0, Lcom/oplus/compat/utils/util/UnSupportedApiVersionException;
+
+    const-string v0, "not supported before L"
+
+    invoke-direct {p0, v0}, Lcom/oplus/compat/utils/util/UnSupportedApiVersionException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method

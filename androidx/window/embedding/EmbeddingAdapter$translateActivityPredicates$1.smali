@@ -1,0 +1,133 @@
+.class final Landroidx/window/embedding/EmbeddingAdapter$translateActivityPredicates$1;
+.super Lkotlin/jvm/internal/Lambda;
+.source ""
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Landroidx/window/embedding/EmbeddingAdapter;->translateActivityPredicates(Ljava/util/Set;)Ljava/lang/Object;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lkotlin/jvm/functions/Function1<",
+        "Landroid/app/Activity;",
+        "Ljava/lang/Boolean;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic $activityFilters:Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Set<",
+            "Landroidx/window/embedding/ActivityFilter;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Ljava/util/Set;)V
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Set<",
+            "Landroidx/window/embedding/ActivityFilter;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, Landroidx/window/embedding/EmbeddingAdapter$translateActivityPredicates$1;->$activityFilters:Ljava/util/Set;
+
+    const/4 p1, 0x1
+
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Landroid/app/Activity;)Ljava/lang/Boolean;
+    .registers 4
+
+    const-string v0, "activity"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p0, p0, Landroidx/window/embedding/EmbeddingAdapter$translateActivityPredicates$1;->$activityFilters:Ljava/util/Set;
+
+    instance-of v0, p0, Ljava/util/Collection;
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_13
+
+    invoke-interface {p0}, Ljava/util/Collection;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_13
+
+    goto :goto_2a
+
+    :cond_13
+    invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object p0
+
+    :cond_17
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2a
+
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Landroidx/window/embedding/ActivityFilter;
+
+    invoke-virtual {v0, p1}, Landroidx/window/embedding/ActivityFilter;->matchesActivity(Landroid/app/Activity;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_17
+
+    const/4 v1, 0x1
+
+    :cond_2a
+    :goto_2a
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 2
+
+    check-cast p1, Landroid/app/Activity;
+
+    invoke-virtual {p0, p1}, Landroidx/window/embedding/EmbeddingAdapter$translateActivityPredicates$1;->invoke(Landroid/app/Activity;)Ljava/lang/Boolean;
+
+    move-result-object p0
+
+    return-object p0
+.end method

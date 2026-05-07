@@ -1,0 +1,108 @@
+.class Lcom/android/launcher3/icons/anim/IconViewPressAnimatorImpl$1;
+.super Landroid/util/Property;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/android/launcher3/icons/anim/IconViewPressAnimatorImpl;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Landroid/util/Property<",
+        "Lcom/android/launcher3/BubbleTextView;",
+        "Ljava/lang/Float;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Class;Ljava/lang/String;)V
+    .registers 3
+
+    invoke-direct {p0, p1, p2}, Landroid/util/Property;-><init>(Ljava/lang/Class;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public get(Lcom/android/launcher3/BubbleTextView;)Ljava/lang/Float;
+    .registers 2
+
+    invoke-virtual {p1}, Landroid/widget/TextView;->getScaleX()F
+
+    move-result p0
+
+    invoke-static {p0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public bridge synthetic get(Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 2
+
+    check-cast p1, Lcom/android/launcher3/BubbleTextView;
+
+    invoke-virtual {p0, p1}, Lcom/android/launcher3/icons/anim/IconViewPressAnimatorImpl$1;->get(Lcom/android/launcher3/BubbleTextView;)Ljava/lang/Float;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public set(Lcom/android/launcher3/BubbleTextView;Ljava/lang/Float;)V
+    .registers 4
+
+    invoke-virtual {p2}, Ljava/lang/Float;->floatValue()F
+
+    move-result p0
+
+    const/4 v0, 0x0
+
+    cmpl-float p0, p0, v0
+
+    if-ltz p0, :cond_1d
+
+    invoke-virtual {p1}, Landroid/widget/TextView;->getVisibility()I
+
+    move-result p0
+
+    if-nez p0, :cond_1d
+
+    invoke-virtual {p2}, Ljava/lang/Float;->floatValue()F
+
+    move-result p0
+
+    invoke-virtual {p1, p0}, Landroid/widget/TextView;->setScaleY(F)V
+
+    invoke-virtual {p2}, Ljava/lang/Float;->floatValue()F
+
+    move-result p0
+
+    invoke-virtual {p1, p0}, Landroid/widget/TextView;->setScaleX(F)V
+
+    :cond_1d
+    return-void
+.end method
+
+.method public bridge synthetic set(Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 3
+
+    check-cast p1, Lcom/android/launcher3/BubbleTextView;
+
+    check-cast p2, Ljava/lang/Float;
+
+    invoke-virtual {p0, p1, p2}, Lcom/android/launcher3/icons/anim/IconViewPressAnimatorImpl$1;->set(Lcom/android/launcher3/BubbleTextView;Ljava/lang/Float;)V
+
+    return-void
+.end method

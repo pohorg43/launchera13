@@ -1,0 +1,41 @@
+.class interface abstract Lcom/android/quickstep/interaction/NavBarGestureHandler$NavBarGestureAttemptCallback;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/android/quickstep/interaction/NavBarGestureHandler;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "NavBarGestureAttemptCallback"
+.end annotation
+
+
+# virtual methods
+.method public onMotionPaused(Z)V
+    .registers 2
+
+    return-void
+.end method
+
+.method public abstract onNavBarGestureAttempted(Lcom/android/quickstep/interaction/NavBarGestureHandler$NavBarGestureResult;Landroid/graphics/PointF;)V
+.end method
+
+.method public setAssistantProgress(F)V
+    .registers 2
+
+    return-void
+.end method
+
+.method public setNavBarGestureProgress(Ljava/lang/Float;)V
+    .registers 2
+    .param p1  # Ljava/lang/Float;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+
+    return-void
+.end method

@@ -1,0 +1,140 @@
+.class public Lcom/coui/appcompat/toolbar/COUIToolbar$LayoutParams;
+.super Landroidx/appcompat/widget/Toolbar$LayoutParams;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/coui/appcompat/toolbar/COUIToolbar;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "LayoutParams"
+.end annotation
+
+
+# instance fields
+.field public a:I
+
+.field public b:Z
+
+
+# direct methods
+.method public constructor <init>(II)V
+    .registers 3
+
+    invoke-direct {p0, p1, p2}, Landroidx/appcompat/widget/Toolbar$LayoutParams;-><init>(II)V
+
+    const/4 p1, 0x0
+
+    iput p1, p0, Lcom/coui/appcompat/toolbar/COUIToolbar$LayoutParams;->a:I
+
+    iput-boolean p1, p0, Lcom/coui/appcompat/toolbar/COUIToolbar$LayoutParams;->b:Z
+
+    const p1, 0x800013
+
+    iput p1, p0, Landroidx/appcompat/app/ActionBar$LayoutParams;->gravity:I
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    .registers 3
+
+    invoke-direct {p0, p1, p2}, Landroidx/appcompat/widget/Toolbar$LayoutParams;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+
+    const/4 p1, 0x0
+
+    iput p1, p0, Lcom/coui/appcompat/toolbar/COUIToolbar$LayoutParams;->a:I
+
+    iput-boolean p1, p0, Lcom/coui/appcompat/toolbar/COUIToolbar$LayoutParams;->b:Z
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/view/ViewGroup$LayoutParams;)V
+    .registers 2
+
+    invoke-direct {p0, p1}, Landroidx/appcompat/widget/Toolbar$LayoutParams;-><init>(Landroid/view/ViewGroup$LayoutParams;)V
+
+    const/4 p1, 0x0
+
+    iput p1, p0, Lcom/coui/appcompat/toolbar/COUIToolbar$LayoutParams;->a:I
+
+    iput-boolean p1, p0, Lcom/coui/appcompat/toolbar/COUIToolbar$LayoutParams;->b:Z
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/view/ViewGroup$MarginLayoutParams;)V
+    .registers 3
+
+    invoke-direct {p0, p1}, Landroidx/appcompat/widget/Toolbar$LayoutParams;-><init>(Landroid/view/ViewGroup$MarginLayoutParams;)V
+
+    const/4 v0, 0x0
+
+    iput v0, p0, Lcom/coui/appcompat/toolbar/COUIToolbar$LayoutParams;->a:I
+
+    iput-boolean v0, p0, Lcom/coui/appcompat/toolbar/COUIToolbar$LayoutParams;->b:Z
+
+    invoke-virtual {p0, p1}, Lcom/coui/appcompat/toolbar/COUIToolbar$LayoutParams;->copyMarginsFromCompat(Landroid/view/ViewGroup$MarginLayoutParams;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroidx/appcompat/app/ActionBar$LayoutParams;)V
+    .registers 2
+
+    invoke-direct {p0, p1}, Landroidx/appcompat/widget/Toolbar$LayoutParams;-><init>(Landroidx/appcompat/app/ActionBar$LayoutParams;)V
+
+    const/4 p1, 0x0
+
+    iput p1, p0, Lcom/coui/appcompat/toolbar/COUIToolbar$LayoutParams;->a:I
+
+    iput-boolean p1, p0, Lcom/coui/appcompat/toolbar/COUIToolbar$LayoutParams;->b:Z
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/coui/appcompat/toolbar/COUIToolbar$LayoutParams;)V
+    .registers 3
+
+    invoke-direct {p0, p1}, Landroidx/appcompat/widget/Toolbar$LayoutParams;-><init>(Landroidx/appcompat/widget/Toolbar$LayoutParams;)V
+
+    const/4 v0, 0x0
+
+    iput v0, p0, Lcom/coui/appcompat/toolbar/COUIToolbar$LayoutParams;->a:I
+
+    iput-boolean v0, p0, Lcom/coui/appcompat/toolbar/COUIToolbar$LayoutParams;->b:Z
+
+    iget p1, p1, Lcom/coui/appcompat/toolbar/COUIToolbar$LayoutParams;->a:I
+
+    iput p1, p0, Lcom/coui/appcompat/toolbar/COUIToolbar$LayoutParams;->a:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public copyMarginsFromCompat(Landroid/view/ViewGroup$MarginLayoutParams;)V
+    .registers 3
+
+    iget v0, p1, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
+
+    iput v0, p0, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
+
+    iget v0, p1, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
+
+    iput v0, p0, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
+
+    iget v0, p1, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
+
+    iput v0, p0, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
+
+    iget p1, p1, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
+
+    iput p1, p0, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
+
+    return-void
+.end method

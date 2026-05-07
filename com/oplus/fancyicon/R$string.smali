@@ -1,0 +1,652 @@
+.class public final Lcom/oplus/fancyicon/R$string;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/oplus/fancyicon/R;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "string"
+.end annotation
+
+
+# static fields
+.field public static final a:I = 0x7f120054
+
+.field public static final abc:I = 0x7f12005f
+
+.field public static final abc_action_bar_home_description:I = 0x7f120060
+
+.field public static final abc_action_bar_up_description:I = 0x7f120061
+
+.field public static final abc_action_menu_overflow_description:I = 0x7f120062
+
+.field public static final abc_action_mode_done:I = 0x7f120063
+
+.field public static final abc_activity_chooser_view_see_all:I = 0x7f120064
+
+.field public static final abc_activitychooserview_choose_application:I = 0x7f120065
+
+.field public static final abc_capital_off:I = 0x7f120066
+
+.field public static final abc_capital_on:I = 0x7f120067
+
+.field public static final abc_menu_alt_shortcut_label:I = 0x7f120068
+
+.field public static final abc_menu_ctrl_shortcut_label:I = 0x7f120069
+
+.field public static final abc_menu_delete_shortcut_label:I = 0x7f12006a
+
+.field public static final abc_menu_enter_shortcut_label:I = 0x7f12006b
+
+.field public static final abc_menu_function_shortcut_label:I = 0x7f12006c
+
+.field public static final abc_menu_meta_shortcut_label:I = 0x7f12006d
+
+.field public static final abc_menu_shift_shortcut_label:I = 0x7f12006e
+
+.field public static final abc_menu_space_shortcut_label:I = 0x7f12006f
+
+.field public static final abc_menu_sym_shortcut_label:I = 0x7f120070
+
+.field public static final abc_prepend_shortcut_label:I = 0x7f120071
+
+.field public static final abc_search_hint:I = 0x7f120072
+
+.field public static final abc_searchview_description_clear:I = 0x7f120073
+
+.field public static final abc_searchview_description_query:I = 0x7f120074
+
+.field public static final abc_searchview_description_search:I = 0x7f120075
+
+.field public static final abc_searchview_description_submit:I = 0x7f120076
+
+.field public static final abc_searchview_description_voice:I = 0x7f120077
+
+.field public static final abc_shareactionprovider_share_with:I = 0x7f120078
+
+.field public static final abc_shareactionprovider_share_with_application:I = 0x7f120079
+
+.field public static final abc_toolbar_collapse_description:I = 0x7f120086
+
+.field public static final afternoon:I = 0x7f1200bb
+
+.field public static final app_name:I = 0x7f1200ed
+
+.field public static final app_name_size:I = 0x7f1200f0
+
+.field public static final appbar_scrolling_view_behavior:I = 0x7f120100
+
+.field public static final apply_button:I = 0x7f120105
+
+.field public static final april:I = 0x7f120106
+
+.field public static final art_permission_alert_message:I = 0x7f120109
+
+.field public static final august:I = 0x7f12010f
+
+.field public static final b:I = 0x7f120112
+
+.field public static final bottom_recommended_header_title:I = 0x7f120126
+
+.field public static final bottom_sheet_behavior:I = 0x7f12012a
+
+.field public static final bottomsheet_action_expand_halfway:I = 0x7f12012f
+
+.field public static final button_to_theme_store:I = 0x7f120159
+
+.field public static final byteShort:I = 0x7f12015a
+
+.field public static final byteSpeed:I = 0x7f12015b
+
+.field public static final c:I = 0x7f12015c
+
+.field public static final calendar_picker_day_of_week_typeface:I = 0x7f12015f
+
+.field public static final calendar_picker_day_typeface:I = 0x7f120160
+
+.field public static final calendar_picker_month_typeface:I = 0x7f120161
+
+.field public static final calendar_picker_next_content:I = 0x7f120162
+
+.field public static final calendar_picker_prev_content:I = 0x7f120163
+
+.field public static final character_counter_content_description:I = 0x7f12016d
+
+.field public static final character_counter_overflowed_content_description:I = 0x7f12016e
+
+.field public static final character_counter_pattern:I = 0x7f12016f
+
+.field public static final chip_text:I = 0x7f120170
+
+.field public static final clear_text_end_icon_content_description:I = 0x7f120174
+
+.field public static final close_art_warning_toast:I = 0x7f120176
+
+.field public static final copy:I = 0x7f120182
+
+.field public static final coui_allow_text:I = 0x7f120183
+
+.field public static final coui_day:I = 0x7f120184
+
+.field public static final coui_hour:I = 0x7f120185
+
+.field public static final coui_hour_abbreviation:I = 0x7f120186
+
+.field public static final coui_install_download_progress_textview:I = 0x7f120187
+
+.field public static final coui_install_load_progress_apostrophe:I = 0x7f120188
+
+.field public static final coui_loading_rotating_json:I = 0x7f120189
+
+.field public static final coui_loading_rotating_json_dark:I = 0x7f12018a
+
+.field public static final coui_loading_view_access_string:I = 0x7f12018b
+
+.field public static final coui_lottie_loading_large_json:I = 0x7f12018c
+
+.field public static final coui_lottie_loading_small_json:I = 0x7f12018d
+
+.field public static final coui_lunar_leap_string:I = 0x7f12018e
+
+.field public static final coui_minute:I = 0x7f12018f
+
+.field public static final coui_minute_abbreviation:I = 0x7f120190
+
+.field public static final coui_month:I = 0x7f120191
+
+.field public static final coui_number_keyboard_delete:I = 0x7f120192
+
+.field public static final coui_numeric_keyboard_sure:I = 0x7f120193
+
+.field public static final coui_reject_text:I = 0x7f120194
+
+.field public static final coui_search_view_cancel:I = 0x7f120195
+
+.field public static final coui_search_view_text:I = 0x7f120196
+
+.field public static final coui_security_alertdailog_privacy:I = 0x7f120197
+
+.field public static final coui_security_alertdailog_statement:I = 0x7f120198
+
+.field public static final coui_security_alertdialog_checkbox_msg:I = 0x7f120199
+
+.field public static final coui_side_pane_icon_content_desciption:I = 0x7f12019a
+
+.field public static final coui_simple_lock_access_description:I = 0x7f12019b
+
+.field public static final coui_slide_delete:I = 0x7f12019c
+
+.field public static final coui_time_picker_day:I = 0x7f12019d
+
+.field public static final coui_time_picker_today:I = 0x7f12019e
+
+.field public static final coui_tool_tips_delete_icon_description:I = 0x7f12019f
+
+.field public static final coui_touchsearch_dot:I = 0x7f1201a0
+
+.field public static final coui_view_inflater_class:I = 0x7f1201a1
+
+.field public static final coui_year:I = 0x7f1201a2
+
+.field public static final custom_foreground_size:I = 0x7f1201ad
+
+.field public static final custom_icon_size:I = 0x7f1201ae
+
+.field public static final custom_radius:I = 0x7f1201af
+
+.field public static final d:I = 0x7f1201b0
+
+.field public static final december:I = 0x7f1201b2
+
+.field public static final def:I = 0x7f1201c9
+
+.field public static final description_leaf:I = 0x7f1201d2
+
+.field public static final description_octagon:I = 0x7f1201d3
+
+.field public static final description_peculiar:I = 0x7f1201d4
+
+.field public static final description_square:I = 0x7f1201d5
+
+.field public static final description_sticker:I = 0x7f1201d6
+
+.field public static final dialog_cancel:I = 0x7f1201db
+
+.field public static final dialog_ok:I = 0x7f1201dc
+
+.field public static final e:I = 0x7f1201f4
+
+.field public static final error_icon_content_description:I = 0x7f1201fa
+
+.field public static final expand_button_title:I = 0x7f1201fc
+
+.field public static final exposed_dropdown_menu_content_description:I = 0x7f1201fd
+
+.field public static final f:I = 0x7f1201ff
+
+.field public static final fab_transformation_scrim_behavior:I = 0x7f120200
+
+.field public static final fab_transformation_sheet_behavior:I = 0x7f120201
+
+.field public static final fast_scroller_dots:I = 0x7f120202
+
+.field public static final februry:I = 0x7f120204
+
+.field public static final font_size_big:I = 0x7f120219
+
+.field public static final font_size_default:I = 0x7f12021a
+
+.field public static final font_size_hide:I = 0x7f12021b
+
+.field public static final font_size_large:I = 0x7f12021c
+
+.field public static final g:I = 0x7f120224
+
+.field public static final ghi:I = 0x7f120246
+
+.field public static final gigaByteSpeed:I = 0x7f120247
+
+.field public static final gigabyteShort:I = 0x7f120248
+
+.field public static final h:I = 0x7f12024b
+
+.field public static final hide_bottom_view_on_scroll_behavior:I = 0x7f12024d
+
+.field public static final i:I = 0x7f12026b
+
+.field public static final icon_art_plus:I = 0x7f12026c
+
+.field public static final icon_art_plus_description:I = 0x7f12026d
+
+.field public static final icon_content_description:I = 0x7f12026f
+
+.field public static final icon_park_theme_dialog_message:I = 0x7f120273
+
+.field public static final icon_park_theme_dialog_negative:I = 0x7f120274
+
+.field public static final icon_park_theme_dialog_positive:I = 0x7f120275
+
+.field public static final icon_park_theme_dialog_title:I = 0x7f120276
+
+.field public static final icon_shape:I = 0x7f120277
+
+.field public static final is_show_app_name:I = 0x7f12027e
+
+.field public static final item_view_role_description:I = 0x7f120282
+
+.field public static final j:I = 0x7f120283
+
+.field public static final january:I = 0x7f120284
+
+.field public static final jkl:I = 0x7f120285
+
+.field public static final july:I = 0x7f120286
+
+.field public static final june:I = 0x7f120287
+
+.field public static final k:I = 0x7f120288
+
+.field public static final kiloByteSpeed:I = 0x7f120289
+
+.field public static final kilobyteShort:I = 0x7f12028a
+
+.field public static final l:I = 0x7f12028b
+
+.field public static final loading_button_dots:I = 0x7f1202c5
+
+.field public static final lockscreen_access_pattern_area:I = 0x7f1202c8
+
+.field public static final lockscreen_access_pattern_cell_added_verbose:I = 0x7f1202c9
+
+.field public static final lockscreen_access_pattern_cleared:I = 0x7f1202ca
+
+.field public static final lockscreen_access_pattern_detected:I = 0x7f1202cb
+
+.field public static final lockscreen_access_pattern_start:I = 0x7f1202cc
+
+.field public static final lunar_april:I = 0x7f1202d2
+
+.field public static final lunar_august:I = 0x7f1202d3
+
+.field public static final lunar_december:I = 0x7f1202d4
+
+.field public static final lunar_februry:I = 0x7f1202d5
+
+.field public static final lunar_january:I = 0x7f1202d6
+
+.field public static final lunar_july:I = 0x7f1202d7
+
+.field public static final lunar_june:I = 0x7f1202d8
+
+.field public static final lunar_march:I = 0x7f1202d9
+
+.field public static final lunar_may:I = 0x7f1202da
+
+.field public static final lunar_november:I = 0x7f1202db
+
+.field public static final lunar_october:I = 0x7f1202dc
+
+.field public static final lunar_september:I = 0x7f1202dd
+
+.field public static final m:I = 0x7f1202de
+
+.field public static final march:I = 0x7f1202f1
+
+.field public static final material_clock_display_divider:I = 0x7f1202f3
+
+.field public static final material_clock_toggle_content_description:I = 0x7f1202f4
+
+.field public static final material_hour_selection:I = 0x7f1202f5
+
+.field public static final material_hour_suffix:I = 0x7f1202f6
+
+.field public static final material_minute_selection:I = 0x7f1202f7
+
+.field public static final material_minute_suffix:I = 0x7f1202f8
+
+.field public static final material_motion_easing_accelerated:I = 0x7f1202f9
+
+.field public static final material_motion_easing_decelerated:I = 0x7f1202fa
+
+.field public static final material_motion_easing_emphasized:I = 0x7f1202fb
+
+.field public static final material_motion_easing_linear:I = 0x7f1202fc
+
+.field public static final material_motion_easing_standard:I = 0x7f1202fd
+
+.field public static final material_slider_range_end:I = 0x7f1202fe
+
+.field public static final material_slider_range_start:I = 0x7f1202ff
+
+.field public static final material_timepicker_am:I = 0x7f120300
+
+.field public static final material_timepicker_clock_mode_description:I = 0x7f120301
+
+.field public static final material_timepicker_hour:I = 0x7f120302
+
+.field public static final material_timepicker_minute:I = 0x7f120303
+
+.field public static final material_timepicker_pm:I = 0x7f120304
+
+.field public static final material_timepicker_select_time:I = 0x7f120305
+
+.field public static final material_timepicker_text_input_mode_description:I = 0x7f120306
+
+.field public static final may:I = 0x7f120307
+
+.field public static final megaByteSpeed:I = 0x7f120308
+
+.field public static final megabyteShort:I = 0x7f120309
+
+.field public static final mno:I = 0x7f12030a
+
+.field public static final more_time_download:I = 0x7f120310
+
+.field public static final morning:I = 0x7f120312
+
+.field public static final most_time_download:I = 0x7f120313
+
+.field public static final mtrl_badge_numberless_content_description:I = 0x7f12031d
+
+.field public static final mtrl_chip_close_icon_content_description:I = 0x7f12031e
+
+.field public static final mtrl_exceed_max_badge_number_content_description:I = 0x7f12031f
+
+.field public static final mtrl_exceed_max_badge_number_suffix:I = 0x7f120320
+
+.field public static final mtrl_picker_a11y_next_month:I = 0x7f120321
+
+.field public static final mtrl_picker_a11y_prev_month:I = 0x7f120322
+
+.field public static final mtrl_picker_announce_current_selection:I = 0x7f120323
+
+.field public static final mtrl_picker_cancel:I = 0x7f120324
+
+.field public static final mtrl_picker_confirm:I = 0x7f120325
+
+.field public static final mtrl_picker_date_header_selected:I = 0x7f120326
+
+.field public static final mtrl_picker_date_header_title:I = 0x7f120327
+
+.field public static final mtrl_picker_date_header_unselected:I = 0x7f120328
+
+.field public static final mtrl_picker_day_of_week_column_header:I = 0x7f120329
+
+.field public static final mtrl_picker_invalid_format:I = 0x7f12032a
+
+.field public static final mtrl_picker_invalid_format_example:I = 0x7f12032b
+
+.field public static final mtrl_picker_invalid_format_use:I = 0x7f12032c
+
+.field public static final mtrl_picker_invalid_range:I = 0x7f12032d
+
+.field public static final mtrl_picker_navigate_to_year_description:I = 0x7f12032e
+
+.field public static final mtrl_picker_out_of_range:I = 0x7f12032f
+
+.field public static final mtrl_picker_range_header_only_end_selected:I = 0x7f120330
+
+.field public static final mtrl_picker_range_header_only_start_selected:I = 0x7f120331
+
+.field public static final mtrl_picker_range_header_selected:I = 0x7f120332
+
+.field public static final mtrl_picker_range_header_title:I = 0x7f120333
+
+.field public static final mtrl_picker_range_header_unselected:I = 0x7f120334
+
+.field public static final mtrl_picker_save:I = 0x7f120335
+
+.field public static final mtrl_picker_text_input_date_hint:I = 0x7f120336
+
+.field public static final mtrl_picker_text_input_date_range_end_hint:I = 0x7f120337
+
+.field public static final mtrl_picker_text_input_date_range_start_hint:I = 0x7f120338
+
+.field public static final mtrl_picker_text_input_day_abbr:I = 0x7f120339
+
+.field public static final mtrl_picker_text_input_month_abbr:I = 0x7f12033a
+
+.field public static final mtrl_picker_text_input_year_abbr:I = 0x7f12033b
+
+.field public static final mtrl_picker_toggle_to_calendar_input_mode:I = 0x7f12033c
+
+.field public static final mtrl_picker_toggle_to_day_selection:I = 0x7f12033d
+
+.field public static final mtrl_picker_toggle_to_text_input_mode:I = 0x7f12033e
+
+.field public static final mtrl_picker_toggle_to_year_selection:I = 0x7f12033f
+
+.field public static final n:I = 0x7f120347
+
+.field public static final no_icon_pack_toast:I = 0x7f120359
+
+.field public static final not_set:I = 0x7f12035f
+
+.field public static final november:I = 0x7f12036a
+
+.field public static final o:I = 0x7f12036c
+
+.field public static final october:I = 0x7f12036e
+
+.field public static final p:I = 0x7f1203d5
+
+.field public static final password_toggle_content_description:I = 0x7f1203e6
+
+.field public static final path_password_eye:I = 0x7f1203e7
+
+.field public static final path_password_eye_mask_strike_through:I = 0x7f1203e8
+
+.field public static final path_password_eye_mask_visible:I = 0x7f1203e9
+
+.field public static final path_password_strike_through:I = 0x7f1203ea
+
+.field public static final permission_alert_message:I = 0x7f1203f3
+
+.field public static final permission_alert_negative_text:I = 0x7f1203f4
+
+.field public static final permission_alert_positive_text:I = 0x7f1203f5
+
+.field public static final permission_alert_subtitle:I = 0x7f1203f6
+
+.field public static final petaByteSpeed:I = 0x7f120400
+
+.field public static final petabyteShort:I = 0x7f120401
+
+.field public static final picker_talkback_tip:I = 0x7f120402
+
+.field public static final pqrs:I = 0x7f12041b
+
+.field public static final preference_copied:I = 0x7f12041c
+
+.field public static final q:I = 0x7f120425
+
+.field public static final r:I = 0x7f120426
+
+.field public static final red_dot_description:I = 0x7f120445
+
+.field public static final reset_size:I = 0x7f120451
+
+.field public static final s:I = 0x7f120465
+
+.field public static final search_menu_title:I = 0x7f120473
+
+.field public static final september:I = 0x7f120483
+
+.field public static final star_character:I = 0x7f1204d1
+
+.field public static final status_bar_notification_info_overflow:I = 0x7f1204d3
+
+.field public static final summary_collapsed_preference_list:I = 0x7f1204dd
+
+.field public static final support_abc_searchview_description_clear:I = 0x7f1204f7
+
+.field public static final support_abc_searchview_description_search:I = 0x7f1204f8
+
+.field public static final support_abc_searchview_description_submit:I = 0x7f1204f9
+
+.field public static final support_abc_searchview_description_voice:I = 0x7f1204fa
+
+.field public static final support_abc_toolbar_collapse_description:I = 0x7f1204fb
+
+.field public static final switch_loading:I = 0x7f1204ff
+
+.field public static final switch_off:I = 0x7f120500
+
+.field public static final switch_on:I = 0x7f120501
+
+.field public static final t:I = 0x7f120516
+
+.field public static final teraByteSpeed:I = 0x7f12052f
+
+.field public static final terabyteShort:I = 0x7f120530
+
+.field public static final theme_aquatic:I = 0x7f120533
+
+.field public static final theme_custom:I = 0x7f120534
+
+.field public static final theme_default:I = 0x7f120535
+
+.field public static final tuv:I = 0x7f12055b
+
+.field public static final u:I = 0x7f120568
+
+.field public static final unknown_artist:I = 0x7f12057d
+
+.field public static final unknown_music:I = 0x7f12057e
+
+.field public static final unlockAuthor:I = 0x7f12057f
+
+.field public static final unsupport_uxicon_warning_message:I = 0x7f120580
+
+.field public static final ux_app_name:I = 0x7f120583
+
+.field public static final ux_change_icon:I = 0x7f120584
+
+.field public static final ux_edit_panel_content:I = 0x7f120585
+
+.field public static final ux_edit_panel_title:I = 0x7f120586
+
+.field public static final ux_font_size_middle:I = 0x7f120587
+
+.field public static final ux_font_size_small:I = 0x7f120588
+
+.field public static final ux_icon_local_special:I = 0x7f120589
+
+.field public static final ux_icon_mask_circle:I = 0x7f12058a
+
+.field public static final ux_icon_mask_leaf:I = 0x7f12058b
+
+.field public static final ux_icon_mask_octagon:I = 0x7f12058c
+
+.field public static final ux_icon_mask_pebble:I = 0x7f12058d
+
+.field public static final ux_icon_mask_peculiar:I = 0x7f12058e
+
+.field public static final ux_icon_mask_recshape:I = 0x7f12058f
+
+.field public static final ux_icon_mask_sticker:I = 0x7f120590
+
+.field public static final ux_icon_more:I = 0x7f120591
+
+.field public static final ux_icon_theme_beta:I = 0x7f120592
+
+.field public static final ux_icon_theme_tv:I = 0x7f120593
+
+.field public static final ux_icon_theme_tv_new:I = 0x7f120594
+
+.field public static final ux_panel_reset:I = 0x7f120595
+
+.field public static final ux_panel_save:I = 0x7f120596
+
+.field public static final ux_reset_default_description:I = 0x7f120597
+
+.field public static final ux_security_privacy:I = 0x7f120598
+
+.field public static final v:I = 0x7f120599
+
+.field public static final v7_preference_off:I = 0x7f12059a
+
+.field public static final v7_preference_on:I = 0x7f12059b
+
+.field public static final view_tag_leaf:I = 0x7f12059c
+
+.field public static final view_tag_octagon:I = 0x7f12059d
+
+.field public static final view_tag_peculiar:I = 0x7f12059e
+
+.field public static final view_tag_square:I = 0x7f12059f
+
+.field public static final view_tag_sticker:I = 0x7f1205a0
+
+.field public static final w:I = 0x7f1205ac
+
+.field public static final well_character:I = 0x7f1205b2
+
+.field public static final wxyz:I = 0x7f1205de
+
+.field public static final x:I = 0x7f1205df
+
+.field public static final y:I = 0x7f1205e5
+
+.field public static final ymdw:I = 0x7f1205e6
+
+.field public static final ymdwhm:I = 0x7f1205e7
+
+.field public static final ymdwshm:I = 0x7f1205e8
+
+.field public static final z:I = 0x7f1205e9
+
+
+# direct methods
+.method private constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

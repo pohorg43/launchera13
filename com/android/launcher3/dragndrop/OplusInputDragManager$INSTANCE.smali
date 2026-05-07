@@ -1,0 +1,42 @@
+.class public final Lcom/android/launcher3/dragndrop/OplusInputDragManager$INSTANCE;
+.super Lcom/oplus/quickstep/utils/SingletonHolder;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/android/launcher3/dragndrop/OplusInputDragManager;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "INSTANCE"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/oplus/quickstep/utils/SingletonHolder<",
+        "Lcom/android/launcher3/dragndrop/OplusInputDragManager;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .registers 2
+
+    sget-object v0, Lcom/android/launcher3/dragndrop/OplusInputDragManager$INSTANCE$1;->INSTANCE:Lcom/android/launcher3/dragndrop/OplusInputDragManager$INSTANCE$1;
+
+    invoke-direct {p0, v0}, Lcom/oplus/quickstep/utils/SingletonHolder;-><init>(Lkotlin/jvm/functions/Function0;)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .registers 2
+
+    invoke-direct {p0}, Lcom/android/launcher3/dragndrop/OplusInputDragManager$INSTANCE;-><init>()V
+
+    return-void
+.end method

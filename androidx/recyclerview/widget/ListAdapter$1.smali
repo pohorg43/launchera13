@@ -1,0 +1,73 @@
+.class Landroidx/recyclerview/widget/ListAdapter$1;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Landroidx/recyclerview/widget/AsyncListDiffer$ListListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/recyclerview/widget/ListAdapter;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Landroidx/recyclerview/widget/AsyncListDiffer$ListListener<",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic this$0:Landroidx/recyclerview/widget/ListAdapter;
+
+
+# direct methods
+.method public constructor <init>(Landroidx/recyclerview/widget/ListAdapter;)V
+    .registers 2
+
+    iput-object p1, p0, Landroidx/recyclerview/widget/ListAdapter$1;->this$0:Landroidx/recyclerview/widget/ListAdapter;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onCurrentListChanged(Ljava/util/List;Ljava/util/List;)V
+    .registers 3
+    .param p1  # Ljava/util/List;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2  # Ljava/util/List;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Ljava/lang/Object;",
+            ">;",
+            "Ljava/util/List<",
+            "Ljava/lang/Object;",
+            ">;)V"
+        }
+    .end annotation
+
+    iget-object p0, p0, Landroidx/recyclerview/widget/ListAdapter$1;->this$0:Landroidx/recyclerview/widget/ListAdapter;
+
+    invoke-virtual {p0, p1, p2}, Landroidx/recyclerview/widget/ListAdapter;->onCurrentListChanged(Ljava/util/List;Ljava/util/List;)V
+
+    return-void
+.end method

@@ -1,0 +1,22 @@
+.class public interface abstract Lcom/oplus/compat/content/pm/PackageManagerNative$IPackageStatsObserverNative;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/oplus/compat/content/pm/PackageManagerNative;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "IPackageStatsObserverNative"
+.end annotation
+
+
+# virtual methods
+.method public abstract onGetStatsCompleted(Landroid/content/pm/PackageStats;Z)V
+    .annotation build Landroidx/annotation/RequiresApi;
+        api = 0x15
+    .end annotation
+.end method
